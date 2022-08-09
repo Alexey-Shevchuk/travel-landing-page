@@ -28,6 +28,7 @@
   html{
     box-sizing: border-box;
   }
+  
 body{
     font-family: 'Lato';
     font-style: normal;
@@ -41,6 +42,7 @@ body{
   *, *::before, *::after{
     box-sizing: inherit;
   }
+
   .item{
     width: 200px;
     height: 100px;
@@ -96,11 +98,9 @@ body{
   /* intro styles start */
 .intro{
     height: 100vh;
-    background: url(../img/intro-bg.jpg) no repeat center;
+    background-image: url(../img/intro-bg.jpg);
     background-size: cover;
 
 }
-
-
 
  /* intro styles end */
